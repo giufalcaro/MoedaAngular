@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'currency/:id', component: CurrencyDetailsComponent },
 ];
 
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
